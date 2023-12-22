@@ -6,7 +6,7 @@ authors:
   - admin
 
 date: '2020-01-03T00:00:00Z'
-doi: ''
+doi: 'https://research.manchester.ac.uk/en/studentTheses/essays-on-limited-attention-in-information-rich-environments'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2017-01-01T00:00:00Z'
