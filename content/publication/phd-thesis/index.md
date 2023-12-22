@@ -47,7 +47,7 @@ url_video: ''
 
 # Featured image
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/blue-and-white-metal-frame-6bmOMqgfZwU?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)'
   focal_point: ''
   preview_only: false
 
