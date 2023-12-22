@@ -21,7 +21,7 @@ bio: My research interests include behavioural decision-making, experiment desig
 
 # Interests to show in About widget
 interests:
-  - Judgements under risk, uncertainty & ambiguity.
+  - Judgement and Decision-Making.
   - Experiment Design.
   - Data Science.
   - Behavioural Rationality.
