@@ -1,19 +1,11 @@
 ---
-title: 'An example conference paper'
+title: 'Essays on limited-attention in information-rich environments'
 
 # Authors
-# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
-# and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Robert Ford
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-
-date: '2013-07-01T00:00:00Z'
+date: '2020-01-03T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -26,13 +18,13 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
-publication_short: In *ICW*
+publication: In *The University of Manchester Archives.*
+publication_short: In *UoM Libraries*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: If information is abundant, the resource that in turn becomes scarce and in need of allocation is what information consumes -- the attention of its recipients. Drawing from recent advances in behavioural decision theory, this thesis presents three essays on issues relating to limited attention in information-rich environments. In the first essay, we attempt to explain recent empirical discrepancies suggesting that despite low material costs, consumers continue to search for a very narrow number of alternatives in online contexts. We appeal to the idea of a general economy of attention and suggest that this discrepancy can be understood through the lens of a fundamental attention allocation problem. In the second essay, we build on this analysis and ask whether individuals that prioritise the expansion of alternatives in their decision making process suffer a decline in their ability to exercise deliberative judgement. We draw on the psychological literature on heuristics and biases and demonstrate that individuals attempting to "behaviourally maximise" are more susceptible to rudimentary judgemental fallacies as compared to decision makers that directly confront their own cognitive limitations. Finally, the third essay, draws on these insights and investigates the interplay between selective attention, enduring personal dispositions and task complexity on the facility with which individuals can deploy simplifying selection policies when choosing between items within a bundle. We demonstrate that alongside the information structure characterising task environments, individuals' capacity to efficiently allocate attention has implications on their ability to simplify the problem space within contexts where multiple conflicting objectives need to be taken into account and counterbalanced.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: My doctoral research focussed on unpacking the implications of commercial, individual wellfare and .
 
 tags: []
 
@@ -45,16 +37,15 @@ featured: false
 #   url: http://example.org
 
 url_pdf: ''
-url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
-url_dataset: 'https://github.com/wowchemy/wowchemy-hugo-themes'
+url_code: ''
+url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://github.com/wowchemy/wowchemy-hugo-themes'
-url_video: 'https://youtube.com'
+url_source: ''
+url_video: ''
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
   focal_point: ''
@@ -75,13 +66,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: example
 ---
-
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
