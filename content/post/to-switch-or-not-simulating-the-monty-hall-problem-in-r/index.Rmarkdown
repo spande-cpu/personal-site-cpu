@@ -98,7 +98,7 @@ monty_hall <- function(strategy = "switch", n = 100) {
 }
 ```
 
-We can now use our function to generate data for any `n` under different strategies. Let's plot the results from our simulation and see which strategy wins in the long-run.
+We can now use our function to generate data for any `n`, under different strategies. Let's plot the results from our simulation and see which strategy wins in the long-run.
 
 ```{r}
 # For plotting
