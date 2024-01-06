@@ -1,14 +1,14 @@
 ---
 title: To Switch or Not? Simulating the Monty-Hall Problem
 author: Shashwat M. Pande
-date: '2024-01-04'
+date: '2019-08-03'
 slug: to-switch-or-not-simulating-the-monty-hall-problem
 categories: [Data Science, Decision Making]
 tags: []
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2024-01-04T12:04:59Z'
+lastmod: '2019-08-03T12:04:59Z'
 featured: no
 image:
   caption: ''
@@ -27,21 +27,21 @@ Here’s a reproduction of the problem originally posed (and solved) in Selvin�
 
 Using enumeration to solve the problem, we could describe the various possibilities in such a game with the decision matrix below. Clearly, the odds of winning when a player switches are 2/3 or about 66.67%.
 
-<div id="nbpuwurazk" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="ivfaqdvgcw" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-#nbpuwurazk table {
+#ivfaqdvgcw table {
   font-family: Chivo, system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-&#10;#nbpuwurazk thead, #nbpuwurazk tbody, #nbpuwurazk tfoot, #nbpuwurazk tr, #nbpuwurazk td, #nbpuwurazk th {
+&#10;#ivfaqdvgcw thead, #ivfaqdvgcw tbody, #ivfaqdvgcw tfoot, #ivfaqdvgcw tr, #ivfaqdvgcw td, #ivfaqdvgcw th {
   border-style: none;
 }
-&#10;#nbpuwurazk p {
+&#10;#ivfaqdvgcw p {
   margin: 0;
   padding: 0;
 }
-&#10;#nbpuwurazk .gt_table {
+&#10;#ivfaqdvgcw .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -66,11 +66,11 @@ Using enumeration to solve the problem, we could describe the various possibilit
   border-left-width: 2px;
   border-left-color: #D3D3D3;
 }
-&#10;#nbpuwurazk .gt_caption {
+&#10;#ivfaqdvgcw .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
-&#10;#nbpuwurazk .gt_title {
+&#10;#ivfaqdvgcw .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -81,7 +81,7 @@ Using enumeration to solve the problem, we could describe the various possibilit
   border-bottom-color: #FFFFFF;
   border-bottom-width: 0;
 }
-&#10;#nbpuwurazk .gt_subtitle {
+&#10;#ivfaqdvgcw .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -92,7 +92,7 @@ Using enumeration to solve the problem, we could describe the various possibilit
   border-top-color: #FFFFFF;
   border-top-width: 0;
 }
-&#10;#nbpuwurazk .gt_heading {
+&#10;#ivfaqdvgcw .gt_heading {
   background-color: #FFFFFF;
   text-align: left;
   border-bottom-color: #FFFFFF;
@@ -103,12 +103,12 @@ Using enumeration to solve the problem, we could describe the various possibilit
   border-right-width: 1px;
   border-right-color: #D3D3D3;
 }
-&#10;#nbpuwurazk .gt_bottom_border {
+&#10;#ivfaqdvgcw .gt_bottom_border {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#nbpuwurazk .gt_col_headings {
+&#10;#ivfaqdvgcw .gt_col_headings {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -122,7 +122,7 @@ Using enumeration to solve the problem, we could describe the various possibilit
   border-right-width: 1px;
   border-right-color: #D3D3D3;
 }
-&#10;#nbpuwurazk .gt_col_heading {
+&#10;#ivfaqdvgcw .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 80%;
@@ -141,7 +141,7 @@ Using enumeration to solve the problem, we could describe the various possibilit
   padding-right: 5px;
   overflow-x: hidden;
 }
-&#10;#nbpuwurazk .gt_column_spanner_outer {
+&#10;#ivfaqdvgcw .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 80%;
@@ -152,13 +152,13 @@ Using enumeration to solve the problem, we could describe the various possibilit
   padding-left: 4px;
   padding-right: 4px;
 }
-&#10;#nbpuwurazk .gt_column_spanner_outer:first-child {
+&#10;#ivfaqdvgcw .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
-&#10;#nbpuwurazk .gt_column_spanner_outer:last-child {
+&#10;#ivfaqdvgcw .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
-&#10;#nbpuwurazk .gt_column_spanner {
+&#10;#ivfaqdvgcw .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #000000;
@@ -169,10 +169,10 @@ Using enumeration to solve the problem, we could describe the various possibilit
   display: inline-block;
   width: 100%;
 }
-&#10;#nbpuwurazk .gt_spanner_row {
+&#10;#ivfaqdvgcw .gt_spanner_row {
   border-bottom-style: hidden;
 }
-&#10;#nbpuwurazk .gt_group_heading {
+&#10;#ivfaqdvgcw .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -197,7 +197,7 @@ Using enumeration to solve the problem, we could describe the various possibilit
   vertical-align: middle;
   text-align: left;
 }
-&#10;#nbpuwurazk .gt_empty_group_heading {
+&#10;#ivfaqdvgcw .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -211,13 +211,13 @@ Using enumeration to solve the problem, we could describe the various possibilit
   border-bottom-color: #FFFFFF;
   vertical-align: middle;
 }
-&#10;#nbpuwurazk .gt_from_md > :first-child {
+&#10;#ivfaqdvgcw .gt_from_md > :first-child {
   margin-top: 0;
 }
-&#10;#nbpuwurazk .gt_from_md > :last-child {
+&#10;#ivfaqdvgcw .gt_from_md > :last-child {
   margin-bottom: 0;
 }
-&#10;#nbpuwurazk .gt_row {
+&#10;#ivfaqdvgcw .gt_row {
   padding-top: 3px;
   padding-bottom: 3px;
   padding-left: 5px;
@@ -235,7 +235,7 @@ Using enumeration to solve the problem, we could describe the various possibilit
   vertical-align: middle;
   overflow-x: hidden;
 }
-&#10;#nbpuwurazk .gt_stub {
+&#10;#ivfaqdvgcw .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 80%;
@@ -247,7 +247,7 @@ Using enumeration to solve the problem, we could describe the various possibilit
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#nbpuwurazk .gt_stub_row_group {
+&#10;#ivfaqdvgcw .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -260,13 +260,13 @@ Using enumeration to solve the problem, we could describe the various possibilit
   padding-right: 5px;
   vertical-align: top;
 }
-&#10;#nbpuwurazk .gt_row_group_first td {
+&#10;#ivfaqdvgcw .gt_row_group_first td {
   border-top-width: 2px;
 }
-&#10;#nbpuwurazk .gt_row_group_first th {
+&#10;#ivfaqdvgcw .gt_row_group_first th {
   border-top-width: 2px;
 }
-&#10;#nbpuwurazk .gt_summary_row {
+&#10;#ivfaqdvgcw .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -275,14 +275,14 @@ Using enumeration to solve the problem, we could describe the various possibilit
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#nbpuwurazk .gt_first_summary_row {
+&#10;#ivfaqdvgcw .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
-&#10;#nbpuwurazk .gt_first_summary_row.thick {
+&#10;#ivfaqdvgcw .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
-&#10;#nbpuwurazk .gt_last_summary_row {
+&#10;#ivfaqdvgcw .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -291,7 +291,7 @@ Using enumeration to solve the problem, we could describe the various possibilit
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#nbpuwurazk .gt_grand_summary_row {
+&#10;#ivfaqdvgcw .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -300,7 +300,7 @@ Using enumeration to solve the problem, we could describe the various possibilit
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#nbpuwurazk .gt_first_grand_summary_row {
+&#10;#ivfaqdvgcw .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -309,7 +309,7 @@ Using enumeration to solve the problem, we could describe the various possibilit
   border-top-width: 6px;
   border-top-color: #D3D3D3;
 }
-&#10;#nbpuwurazk .gt_last_grand_summary_row_top {
+&#10;#ivfaqdvgcw .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -318,10 +318,10 @@ Using enumeration to solve the problem, we could describe the various possibilit
   border-bottom-width: 6px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#nbpuwurazk .gt_striped {
+&#10;#ivfaqdvgcw .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
-&#10;#nbpuwurazk .gt_table_body {
+&#10;#ivfaqdvgcw .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -329,7 +329,7 @@ Using enumeration to solve the problem, we could describe the various possibilit
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#nbpuwurazk .gt_footnotes {
+&#10;#ivfaqdvgcw .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -342,7 +342,7 @@ Using enumeration to solve the problem, we could describe the various possibilit
   border-right-width: 2px;
   border-right-color: #D3D3D3;
 }
-&#10;#nbpuwurazk .gt_footnote {
+&#10;#ivfaqdvgcw .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -350,7 +350,7 @@ Using enumeration to solve the problem, we could describe the various possibilit
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#nbpuwurazk .gt_sourcenotes {
+&#10;#ivfaqdvgcw .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -363,57 +363,57 @@ Using enumeration to solve the problem, we could describe the various possibilit
   border-right-width: 2px;
   border-right-color: #D3D3D3;
 }
-&#10;#nbpuwurazk .gt_sourcenote {
+&#10;#ivfaqdvgcw .gt_sourcenote {
   font-size: 12px;
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#nbpuwurazk .gt_left {
+&#10;#ivfaqdvgcw .gt_left {
   text-align: left;
 }
-&#10;#nbpuwurazk .gt_center {
+&#10;#ivfaqdvgcw .gt_center {
   text-align: center;
 }
-&#10;#nbpuwurazk .gt_right {
+&#10;#ivfaqdvgcw .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
-&#10;#nbpuwurazk .gt_font_normal {
+&#10;#ivfaqdvgcw .gt_font_normal {
   font-weight: normal;
 }
-&#10;#nbpuwurazk .gt_font_bold {
+&#10;#ivfaqdvgcw .gt_font_bold {
   font-weight: bold;
 }
-&#10;#nbpuwurazk .gt_font_italic {
+&#10;#ivfaqdvgcw .gt_font_italic {
   font-style: italic;
 }
-&#10;#nbpuwurazk .gt_super {
+&#10;#ivfaqdvgcw .gt_super {
   font-size: 65%;
 }
-&#10;#nbpuwurazk .gt_footnote_marks {
+&#10;#ivfaqdvgcw .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
-&#10;#nbpuwurazk .gt_asterisk {
+&#10;#ivfaqdvgcw .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
-&#10;#nbpuwurazk .gt_indent_1 {
+&#10;#ivfaqdvgcw .gt_indent_1 {
   text-indent: 5px;
 }
-&#10;#nbpuwurazk .gt_indent_2 {
+&#10;#ivfaqdvgcw .gt_indent_2 {
   text-indent: 10px;
 }
-&#10;#nbpuwurazk .gt_indent_3 {
+&#10;#ivfaqdvgcw .gt_indent_3 {
   text-indent: 15px;
 }
-&#10;#nbpuwurazk .gt_indent_4 {
+&#10;#ivfaqdvgcw .gt_indent_4 {
   text-indent: 20px;
 }
-&#10;#nbpuwurazk .gt_indent_5 {
+&#10;#ivfaqdvgcw .gt_indent_5 {
   text-indent: 25px;
 }
 &#10;tbody tr:last-child {
@@ -534,9 +534,12 @@ monty_hall <- function(strategy = "switch", n = 100) {
 We can now use our function to generate data for any `n` under different strategies. Let’s plot the results from our simulation and see which strategy wins in the long-run.
 
 ``` r
-# Generate Monty Hall Data
+# For plotting
 library(ggplot2)
+
+# Initialise a tibble to store results
 out <- tidyr::tibble()
+# Generate data from our simulation
 for (i in 1:1000) {
   out <- dplyr::bind_rows(
     out, do.call(
@@ -544,13 +547,17 @@ for (i in 1:1000) {
     ) 
   )
 }
+
+# Plot results
 ggplot(aes(trials, win_rate), data = out) + 
   geom_line(aes(col = strategy)) +
   scale_y_continuous(label = scales::percent_format()) +
   ggtitle("No. of Games v/s Win-Rate") +
   xlab("Number of Times the Game is Played") +
   ylab("% of Games Where Player Wins") +
-  theme_bw() 
+  theme_bw() +
+  theme(text = element_text(size = 15, face = "bold"),
+        plot.title = element_text(hjust = .5))
 ```
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-3-1.png" width="672" />

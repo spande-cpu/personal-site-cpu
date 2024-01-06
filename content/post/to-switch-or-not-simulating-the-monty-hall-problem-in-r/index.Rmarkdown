@@ -1,14 +1,14 @@
 ---
 title: To Switch or Not? Simulating the Monty-Hall Problem
 author: Shashwat M. Pande
-date: '2024-01-04'
+date: '2019-08-03'
 slug: to-switch-or-not-simulating-the-monty-hall-problem
 categories: [Data Science, Decision Making]
 tags: []
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2024-01-04T12:04:59Z'
+lastmod: '2019-08-03T12:04:59Z'
 featured: no
 image:
   caption: ''
@@ -101,9 +101,12 @@ monty_hall <- function(strategy = "switch", n = 100) {
 We can now use our function to generate data for any `n` under different strategies. Let's plot the results from our simulation and see which strategy wins in the long-run.
 
 ```{r}
-# Generate Monty Hall Data
+# For plotting
 library(ggplot2)
+
+# Initialise a tibble to store results
 out <- tidyr::tibble()
+# Generate data from our simulation
 for (i in 1:1000) {
   out <- dplyr::bind_rows(
     out, do.call(
@@ -111,13 +114,17 @@ for (i in 1:1000) {
     ) 
   )
 }
+
+# Plot results
 ggplot(aes(trials, win_rate), data = out) + 
   geom_line(aes(col = strategy)) +
   scale_y_continuous(label = scales::percent_format()) +
   ggtitle("No. of Games v/s Win-Rate") +
   xlab("Number of Times the Game is Played") +
   ylab("% of Games Where Player Wins") +
-  theme_bw() 
+  theme_bw() +
+  theme(text = element_text(size = 15, face = "bold"),
+        plot.title = element_text(hjust = .5))
 ```
 
 Hmm...it would seem that we have a winner! Try working with the code on your own machine and messing with some parameters. What happens to the odds when we change the number of doors to 4 or more? 
