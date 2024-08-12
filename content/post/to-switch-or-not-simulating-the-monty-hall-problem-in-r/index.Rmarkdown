@@ -17,7 +17,7 @@ image:
 projects: []
 ---
 
-The Monty-Hall problem is perhaps one the most well-known examples of a situation when arguments about matters of chance and probability make it into the general public discourse. Initially proposed and solved by Steve Selvin in a letter to the editor of the *The American Statistician*, the problem became known more broadly when the correctness of the perhaps slightly unintuitive solution became the [subject of a bitter public disagreement](https://web.archive.org/web/20130121183432/http://marilynvossavant.com/game-show-problem/) between a famous American columnist and (some of) her more distinguished readers.
+The Monty-Hall problem is perhaps one the most well-known examples of a situation when arguments about matters of chance and probability make it into the general public discourse. Initially proposed and solved by Steve Selvin in a letter to the editor of the *The American Statistician*, the problem became known more broadly when the correctness of the perhaps slightly unintuitive solution became the [subject of a bitter public disagreement](https://web.archive.org/web/20130121183432/http://marilynvossavant.com/game-show-problem/) between a famous American columnist (and mathematician, Marilyn vos Savant) and (some of) her more distinguished readers.
 
 Here's a reproduction of the problem originally posed (and solved) in Selvin's letter. The set-up can be summarised as follows:
 
@@ -127,6 +127,8 @@ ggplot(aes(trials, win_rate), data = out) +
         plot.title = element_text(hjust = .5))
 ```
 
-Hmm...it would seem that we have a winner! Try working with the code on your own machine and messing with some parameters. What happens to the odds when we change the number of doors to 4 or more? 
+It would seem that we have a winner! Clearly, switching doors is the dominating strategy vindicating vos Savant's perhaps not so controversial solution. 
+
+Try working with the code on your own machine and messing with some parameters? What happens to the odds when we change the number of doors to 4 or more and how might we set up a similar experiment? 
 
 
