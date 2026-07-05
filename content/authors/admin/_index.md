@@ -70,7 +70,7 @@ highlight_name: true
 
 Hello there. You have found my personal website.
 
-I am an human — that is me in the picture, about to tuck into some delicious *khichdi* and *poppadoms* so clearly, not a bot.
+That is me in the picture, about to tuck into some delicious *khichdi* and *poppadoms* so clearly, not a bot.
 
 I work on data science, decision science and AI-enabled decision support, spending most of my time building analytical systems that help people make better decisions in complex environments characterised by uncertainty. 
 

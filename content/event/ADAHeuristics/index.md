@@ -12,7 +12,7 @@ address:
   postcode: 
   country: 
 
-summary: What factors are implicated in how individuals use recommendations derived from multi-criteria reccomendations?
+summary: What factors are implicated in how individuals use recommendations derived from decision support tools?
 
 abstract: 'An examination of how effectively individuals can use fast-and-frugal models in muti-criteria decision
 making problems. We consider interactions between individual, model and task features when using simplified policies
