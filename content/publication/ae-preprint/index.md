@@ -21,10 +21,10 @@ publication_types: ["3"]
 publication: "Social Sciences Research Network Working Paper"
 publication_short: "SSRN Working Paper"
 
-abstract: Traditional models of the economics of search suggest that as the material costs associated with searching for products and services are greatly reduced because of the Internet, consumers should search more extensively in online contexts. Recent empirical evidence strongly contradicts this hypothesis. In this paper, we address this discrepancy and situate the problem of limited search within an economy of attention. Using a commercial panel of clickstream data we develop an empirical framework for the online search process based on the size of the consideration set, market concentration of attention and search time. Our results suggest that consumers are faced with a fundamental attention allocation problem characterised by a trade-off between the number of alternatives searched for and the time spent searching for information on individual alternatives. Furthermore, we find that the intensity of competition for attention in online markets affects both the magnitude and strength of this relationship. We discuss the theoretical and managerial implications from our findings and suggest some avenues for further research. 
+abstract: This paper explored online search as a problem of limited attention. Although the internet reduces the practical cost of finding information, consumers do not necessarily search more extensively. Using clickstream data, the study showed that people face a trade-off between looking across more alternatives and spending more time evaluating each one. The work highlights a key principle for digital analytics and highlights that online behaviour is not driven by information availability alone. It is shaped by attention, cognitive effort and competition between alternatives.
 
 # Summary. An optional shortened abstract.
-summary: We examine how search-time decays over the size of the consideration-set under various regimes of online market-concentration.
+summary: An examination of how search-time decays over the size of the consideration-set under various regimes of online market-concentration.
 
 tags:
 - Data Science
