@@ -15,7 +15,7 @@ sections:
   - block: collection
     id: featured
     content:
-      title: Publications
+      title: Papers
       filters:
         folders:
           - publication
@@ -70,7 +70,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Seminars & Talks
+      title: Seminars
       filters:
         folders:
           - event

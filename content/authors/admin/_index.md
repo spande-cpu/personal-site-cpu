@@ -21,11 +21,11 @@ bio: My research interests include behavioural decision-making, experiment desig
 
 # Interests to show in About widget
 interests:
-  - Judgement and Decision-Making.
-  - Experiment Design.
-  - Data Science.
-  - Behavioural Rationality.
-  - Data-Driven Decision Making.
+  - Judgement & Decision-Making
+  - Survey & Experiment Design
+  - Forecasting, Classification and NLP
+  - Machine Learning and Computational Modelling
+  - Data-Driven Decision Making
 
 # Education to show in About widget
 education:
@@ -36,7 +36,7 @@ education:
     - course: MSc in Information Systems
       institution: Alliance Manchester Business School, University of Manchester 
       year: 2014
-    - course: BBA (Hons.) in Business Studies (Management, Economics, Statistics and Operational Research)
+    - course: BBA (Hons.) in Business Studies
       institution: Lancaster University 
       year: 2013
 
@@ -68,15 +68,21 @@ email: ''
 highlight_name: true
 ---
 
-Hello there! You have just found my personal website. I am an human (that's me in the picture about to tuck into some delicious *Khichdi* and *Poppadams* so clearly, not a bot). 
+Hello there. You have found my personal website.
 
-I am also a data scientist and research professional in behavioural decision making & operational research. I made this website (with a lot of help from the wonderful folks that maintain the R language, CRAN, Hugo and Github) to share my (mostly) mundane musings and some (hopefully) useful material that fellow researchers, data scientists, students and members of the curious public might find useful in their pursuit for [the meaning of life, the universe and everything](https://ih1.redbubble.net/image.2057201738.9338/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg).
+I am an human — that is me in the picture, about to tuck into some delicious *khichdi* and *poppadoms* so clearly, not a bot.
 
-Anything I publish here is expressly my own opinion and does not represent the position of any organisation, colleague, collaborator, institution, affiliate or partner that I have previously, currently or will ever work with. If something on this site captures your attention, feel free to share it with an attribution or even better, get in touch, I am quite a pleasant person (once I've had my first cup of coffee)! Also note that while I try to be rigorous and balanced in my presentation of ideas, I reserve the right to be wrong and to revise my thoughts in light of new evidence.
+I work on data science, decision science and AI-enabled decision support, spending most of my time building analytical systems that help people make better decisions in complex environments characterised by uncertainty. 
 
-My work draws on synergies between data analytics, cognitive science and information systems with a special interest in unpacking assemblages of agent-environment interactions to better support strategic decision-making with transparent and explainable models.
+I made this website — with a lot of help from the wonderful people who maintain R, CRAN, Hugo and GitHub — to share occasional thoughts, research notes and hopefully useful material for researchers, data scientists, students and curious members of the public in their pursuit of the meaning of life, the universe and everything.
 
-Methodologically, my approach draws on problem-structuring methods, laboratory/field experiments, observational studies and computational-modelling/applied machine-learning (ML) in commercial and policy settings.
+My work sits at the intersection of data science, decision science and information systems with an emphasis on how transparent, explainable analytical tools can support better strategic decision-making. Methodologically, my work draws on problem-structuring methods, laboratory and field experiments, observational studies, computational modelling and applied machine learning in commercial, organisational and policy settings.
 
-I am especially interested in unlocking the power of self service analytics, ML and AI enabled tools to embed data-driven decision-making in complex organizational contexts characterized by change, ignorance, risk, uncertainty and ambiguity. More broadly, I am interested in how these tools can be used to improve data-literacy, knowledge representations and societal well-being.
+More broadly, I am interested in how self-service analytics, machine learning and AI-enabled decision-support systems can help organisations make better decisions under conditions of change, risk, uncertainty and ambiguity. I am also interested in how these tools can improve data literacy, support clearer knowledge representations and contribute to societal well-being.
+
+I started my career in academia, teaching courses at the University of Manchester and the London School of Economics. Since then, I have been working in applied research helping organisations make sense of messy transactional and operational data to extract meaningful signals to improve decision making with the use of frontier analytical and data-driven methodologies.
+
+Anything I publish here represents my own views and not those of any organisation, colleague, collaborator, institution, affiliate or partner I have worked with, currently work with or may work with in future.
+
+If something on this site captures your attention, feel free to share it with attribution — or better yet, get in touch (I am quite a pleasant person, once I have had my first cup of coffee). I try to be rigorous and balanced in how I present ideas, but I also reserve the right to be wrong and to revise my views in light of new evidence.
 {style="text-align: justify;"}
