@@ -30,13 +30,13 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Business & Management (Decision Sciences and Operational Research)
-      institution: University of Manchester 
+    - course: PhD in Decision Sciences and Operational Research
+      institution: Center for AI and Decision Sciences, University of Manchester 
       year: 2019
-    - course: MSc in Information Systems 
-      institution: University of Manchester 
+    - course: MSc in Information Systems
+      institution: Alliance Manchester Business School, University of Manchester 
       year: 2014
-    - course: BBA (Hons.) in Business Studies (Management, Economics, Statistics and Operational Reseach)
+    - course: BBA (Hons.) in Business Studies (Management, Economics, Statistics and Operational Research)
       institution: Lancaster University 
       year: 2013
 
