@@ -80,7 +80,7 @@ My work sits at the intersection of data science, decision science and informati
 
 More broadly, I am interested in how self-service analytics, machine learning and AI-enabled decision-support systems can help organisations make better decisions under conditions of change, risk, uncertainty and ambiguity. I am also interested in how these tools can improve data literacy, support clearer knowledge representations and contribute to societal well-being.
 
-I started my career in academia, teaching courses at the University of Manchester and the London School of Economics. Since then, I have been working in applied research helping organisations make sense of messy transactional and operational data to extract meaningful signals to improve decision making with the use of frontier analytical and data-driven methodologies.
+I started my career in academia, teaching courses at the University of Manchester and the London School of Economics. Since then, I have been working in applied research helping organisations make sense of messy transactional and operational data to extract meaningful signals to improve decision making with the use of analytical and data-driven methodologies.
 
 Anything I publish here represents my own views and not those of any organisation, colleague, collaborator, institution, affiliate or partner I have worked with, currently work with or may work with in future.
 
