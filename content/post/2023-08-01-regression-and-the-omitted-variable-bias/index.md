@@ -16,6 +16,9 @@ image:
   focal_point: ""
   preview_only: false
 projects: []
+output:
+  md_document:
+    variant: markdown+tex_math_dollars
 ---
 
 
