@@ -68,21 +68,23 @@ email: ''
 highlight_name: true
 ---
 
-Hello there. You have found my personal website.
+Hello there! You have found my personal website.
 
 That is me in the picture, about to tuck into some delicious *khichdi* and *poppadoms* so clearly, not a bot.
 
-I work on data science, decision science and AI-enabled decision support, spending most of my time building analytical systems that help people make better decisions in complex environments characterised by uncertainty. 
+I work at the intersection of data science, decision science and information systems, with a focus on analytical tools that help people make better decisions in complex environments characterised by uncertainty, ambiguity and change.
 
-I made this website — with a lot of help from the wonderful people who maintain R, CRAN, Hugo and GitHub — to share occasional thoughts, research notes and hopefully useful material for researchers, data scientists, students and curious members of the public in their pursuit of the meaning of life, the universe and everything.
+I made this website — with a lot of help from the wonderful people who maintain R, CRAN, Hugo and GitHub — to share occasional thoughts, research notes and hopefully useful material for researchers, data scientists, students and curious members of the public in their pursuit of [the meaning of life, the universe and everything](https://en.wikipedia.org/wiki/42_(number)).
 
-My work sits at the intersection of data science, decision science and information systems with an emphasis on how transparent, explainable analytical tools can support better strategic decision-making. Methodologically, my work draws on problem-structuring methods, laboratory and field experiments, observational studies, computational modelling and applied machine learning in commercial, organisational and policy settings.
+Much of my work is concerned with transparent, explainable and practical decision-support systems. Methodologically, I draw on problem-structuring methods, laboratory and field experiments, observational studies, computational modelling and applied machine learning across commercial, organisational and policy settings.
 
-More broadly, I am interested in how self-service analytics, machine learning and AI-enabled decision-support systems can help organisations make better decisions under conditions of change, risk, uncertainty and ambiguity. I am also interested in how these tools can improve data literacy, support clearer knowledge representations and contribute to societal well-being.
+More broadly, I am interested in how self-service analytics, machine learning and AI-enabled decision support can improve data literacy, support clearer knowledge representations and contribute to broader societal well-being.
 
-I started my career in academia, teaching courses at the University of Manchester and the London School of Economics. Since then, I have been working in applied research helping organisations make sense of messy transactional and operational data to extract meaningful signals to improve decision making with the use of analytical and data-driven methodologies.
+I started my career in academia, teaching at the University of Manchester and the London School of Economics. Since then, I have worked in applied research, helping organisations make sense of messy transactional and operational data, extract meaningful signals and use analytical methods to improve decision-making.
 
-Anything I publish here represents my own views and not those of any organisation, colleague, collaborator, institution, affiliate or partner I have worked with, currently work with or may work with in future.
+Anything I publish here represents my own views, not those of any organisation, colleague, collaborator, institution, affiliate or partner I have worked with, currently work with or may work with in future.
 
-If something on this site captures your attention, feel free to share it with attribution — or better yet, get in touch (I am quite a pleasant person, once I have had my first cup of coffee). I try to be rigorous and balanced in how I present ideas, but I also reserve the right to be wrong and to revise my views in light of new evidence.
+If something on this site captures your attention, feel free to share it with attribution — or better yet, get in touch. I am quite a pleasant person, once I have had my first cup of coffee.
+
+I try to be rigorous and balanced in how I present ideas, but I also reserve the right to be wrong and to revise my views in light of new evidence.
 {style="text-align: justify;"}
